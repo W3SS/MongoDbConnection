@@ -1,0 +1,10 @@
+server:
+    port: 8080
+ 
+spring:
+    profiles:
+        active: dev
+    data:
+        mongodb:
+            host: mongodb://estudo:(39Marcelo)@cluster0-shard-00-00-efjbv.mongodb.net:27017,cluster0-shard-00-01-efjbv.mongodb.net:27017,cluster0-shard-00-02-efjbv.mongodb.net:27017/meat-app?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin
+            database: meat-app
